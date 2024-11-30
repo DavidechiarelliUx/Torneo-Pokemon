@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Pocket Arena</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="./script.js"></script>
+</head>
+<body>
+    <!-- Menu di navigazione -->
+    <nav class="menu">
+        <div class="menu-container">
+            <span class="logo">POKÉMON POCKET ARENA</span>
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="menu-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#descrizione">Descrizione Evento</a></li>
+                <li><a href="#programma">Programma Evento</a></li>
+                <a href="#iscrizione" class="btn iscrizione-btn">ISCRIVITI</a>
+            </ul>
+        </div>
+    </nav>    
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-images">
+                <img src="./assets/squirtle.png" alt="Squirtle" class="pixel-art">
+                <img src="./assets/pika.png" alt="Pikachu" class="pixel-art">
+                <img src="./assets/giratina.png" alt="Giratina" class="pixel-art">
+            </div>
+            <h1>La tua arena per tornei</h1>
+            <h2>Pokémon TGCP!</h2>
+            <p>Benvenuto su Pokémon Pocket Arena, il portale ufficiale per tutti gli appassionati del gioco di carte collezionabili Pokémon (TGCP). Qui puoi iscriverti ai tornei, scoprire le regole ufficiali, consultare le classifiche e rimanere aggiornato su tutte le prossime competizioni! Preparati a sfidare altri allenatori e dimostra di essere il migliore!</p>
+            <a href="#iscrizione" class="btn iscrizione-btn">ISCRIVITI</a>
+        </div>
+    </header>
+    <section id="descrizione" class="event-section">
+        <div class="event-content">
+            <div class="event-image">
+                <img src="./assets/mobile.png" alt="Mockup Pokémon" style="border-radius: 50px;"/>
+            </div>
+            <div class="event-details">
+                <h2>Descrizione Evento</h2>
+                <ul>
+                    <li><strong>Costo Iscrizione:</strong> 5 €</li>
+                    <li><strong>Data:</strong> 22/12/24</li>
+                    <li><strong>Orario:</strong> 17:00 Start</li>
+                    <li><strong>Luogo:</strong> [Nome del negozio da definire]</li>
+                </ul>
+                <h3>Regole Speciali:</h3>
+                <ul>
+                    <li>Carte Bannate: Tutti i Pokémon EX</li>
+                    <li>Modalità di Iscrizione: [Da definire]</li>
+                    <li>Scadenza Iscrizione: [Da definire]</li>
+                    <li>Quota Iscrizione: [Da definire]</li>
+                </ul>
+                <p>Preparati a sfidare i migliori allenatori e dimostra il tuo valore! Per ulteriori dettagli o per registrarti, contatta [informazioni da aggiungere].</p>
+                <p class="premio"><strong>Premio:</strong> Buono Google Play al primo classificato!</p>
+            </div>
+        </div>
+    </section>
+    <!-- Sezione Giornate Torneo Online -->
+<section id="giornate-torneo" class="tournament-days-section">
+    <div class="left-panel">
+        <h2>Giornate Torneo Online</h2>
+        <img src="trophy-icon.png" alt="Trophy Icon" class="icon">
+    </div>
+    <div class="right-panel">
+        <div class="event-day">
+            <h3>Primo Evento Giorno: 22 Novembre</h3>
+            <ul>
+                <li><strong>09:00 AM – 10:00 AM:</strong> Verifica delle Iscrizioni</li>
+                <li><strong>10:00 AM – 10:30 AM:</strong> Coffee Break</li>
+                <li><strong>10:30 AM – 12:30 PM:</strong> Inizio Preliminari</li>
+                <li><strong>12:30 PM – 13:30 PM:</strong> Lunch Break</li>
+                <li><strong>14:30 PM – 16:00 PM:</strong> Inizio Semifinali</li>
+                <li><strong>16:00 PM – 17:00 PM:</strong> Finale e decretazione del vincitore</li>
+            </ul>
+        </div>
+        <div class="event-day">
+            <h3>Secondo Evento Giorno: 25 Novembre</h3>
+            <ul>
+                <li><strong>09:00 AM – 10:00 AM:</strong> Verifica Iscrizioni</li>
+                <li><strong>10:00 AM – 10:30 AM:</strong> Coffee Break</li>
+                <li><strong>10:30 AM – 12:30 PM:</strong> Inizio Preliminari</li>
+                <li><strong>12:30 PM – 13:30 PM:</strong> Lunch Break</li>
+                <li><strong>14:30 PM – 16:00 PM:</strong> Inizio Semifinali</li>
+                <li><strong>16:00 PM – 17:00 PM:</strong> Finale e decretazione del vincitore</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Sezione Evento Dal Vivo -->
+<section id="evento-dal-vivo" class="live-event-section">
+    <h2>Evento Dal Vivo</h2>
+    <div class="event-content">
+        <div class="event-image">
+            <img src="live-event.png" alt="Evento Dal Vivo">
+        </div>
+        <div class="event-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=..."
+                width="100%"
+                height="300"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+    <p class="event-info">
+        Se volete partecipare all'evento dal vivo il giorno: ...<br>
+        <strong>14-15 January 2035</strong><br>
+        500 Terry Francine Street<br>
+        San Francisco, CA 94158
+    </p>
+</section>
+<footer class="site-footer">
+    <div class="footer-container">
+        <!-- Copyright -->
+        <div class="footer-copyright">
+            <p>© 2024 Pokémon Pocket Arena. Tutti i diritti riservati.</p>
+        </div>
+
+        <!-- Links ai social media -->
+        <div class="footer-social">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <img src="facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <img src="instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                <img src="twitter-icon.png" alt="Twitter">
+            </a>
+        </div>
+
+        <!-- Contatti -->
+        <div class="footer-contact">
+            <p>
+                Contattaci: <a href="mailto:info@pokemonpocketarena.com">info@pokemonpocketarena.com</a>
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
